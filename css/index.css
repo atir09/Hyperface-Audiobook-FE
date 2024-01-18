@@ -1,10 +1,12 @@
 /* BG color */
 
 body {
+    width: 430px;
     background-color: rgb(20, 20, 20);
     color: white;
     font-family: 'Open Sans', sans-serif;
     padding: 1.5rem;
+    
 }
 
 .flexbox {

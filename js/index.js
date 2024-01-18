@@ -42,8 +42,8 @@ redirect.addEventListener("click",()=>{
     location.href="./html/audioPlay.html"
 })
 
-const redirect2=document.getElementById("redirect2")
-redirect2.addEventListener("click",()=>{
-    console.log("clicking")
-    location.href="./html/audioPlay.html"
-})
+// const redirect2=document.getElementById("redirect2")
+// redirect2.addEventListener("click",()=>{
+//     console.log("clicking")
+//     location.href="./html/audioPlay.html"
+// })
