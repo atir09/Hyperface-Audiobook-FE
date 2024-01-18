@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/audio.css">
+    <title>Audio Player</title>
+</head>
+<body>
+     
+<button class="theme-toggle">
+    <span class="mdi mdi-brightness-7 mdi-spin mdi-18px"></span>
+  </button>
+  <div class="card">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230627113746/DSA-full-form.png" alt="Learn DSA" id="cover" />
+    <h2 class="card__titre">Learn DSA</h2>
+    <span class="card__artist">Vicky Gupta</span>
+    <div class="card__controllers">
+      <input type="range" value="0" id="tracker" />
+      <span class="card__controllers__time" id="current-time">00:00</span>
+      <span class="card__controllers__time" id="info-time">2:44</span>
+    </div>
+    <div class="card__actions">
+      <button id="prev">
+        <span class="mdi mdi-skip-previous"></span>
+      </button>
+      <button id="backward">
+        <span class="mdi mdi-skip-backward"></span>
+      </button>
+      <button class="card__actions--main" tabindex="0">
+        <span class="mdi mdi-play"></span>
+      </button>
+      <button id="forward">
+        <span class="mdi mdi-skip-forward"></span>
+      </button>
+      <button id="next">
+        <span class="mdi mdi-skip-next"></span>
+      </button>
+    </div>
+  </div>
+  
+      
+    
+</body>
+</html>
